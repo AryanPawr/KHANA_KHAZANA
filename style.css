@@ -1,0 +1,545 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kaisei HarunoUmi', serif;
+    background-color: #ebf2ff;
+}
+
+.navbar{
+    position: "sticky";
+    top: 0;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#eb6123;
+    z-index:9999;
+}
+.navbar__brand{
+    width: 100px;
+
+}
+.brand__logo{
+    width: 90px;
+}
+
+.navbar__nav__items{
+    display: flex;
+
+}
+.hero__description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+.hero__image__container{
+    position: relative;
+    width: 100%;
+
+}
+
+.hero__image{
+    object-fit: fill;
+	width:30%;
+    position:absolute; 
+    right: 80;
+    left: 80;
+    
+    border-radius: 10px;
+}
+.hero__image2{
+    object-fit: fill;
+	width:40%;
+
+    position:absolute; 
+    right: 0;
+    border-radius: 10px;
+}
+.hero__text
+{
+    position:absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    top: 25%;
+    width: 100%;
+    line-height: 2.2rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+.button__primary{
+    background-image: linear-gradient(
+        to right ,
+        #C35B17 30%,
+        #E66C2c 80%,
+        #ff8040 60%
+        );
+    margin: 10px;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    border-radius: 29px;
+    box-shadow: rgb(230, 112, 44);
+    background-size: 200% auto;
+    display: block;
+    
+
+
+
+}
+
+.button__primary:hover{
+    background-position:right center;
+}
+.button__main{
+   margin-left: 38%;
+    margin-top: 38%;
+    background-color: #eb6123;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    transition: 1s;
+    color: black;
+    font-weight: 300;
+    border-radius: 23px;
+    box-shadow: rgb(230, 112, 44);
+    background-size: 200% auto ;
+    display: block;
+  
+  
+
+
+
+
+}
+.search{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    height: 50%;
+
+}
+.content{
+    margin-top: 5%;
+    text-align: center;
+    border: 3px solid rgb(248, 99, 0);
+    border-radius: 23px;
+}
+.hero__logo__container{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.hero__logo
+{
+    width:25%;
+    margin-top: 10px;
+    margin-left:50px;
+}
+.hero__logo1
+{
+    width:25%;
+}
+.hero__logo2
+{
+    width:25%;
+}
+.video__clip__container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.video__clip{
+   position:relative ;
+}
+.video__text{
+    margin-top: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    text-align: center;
+}
+.text_1{
+    color: coral;
+    font-weight: 800;
+}
+.food__list__container{
+    position: relative;
+    margin: 5rem 2rem;
+
+}
+.food__menu__card__list{
+   
+    width: 100%;
+}
+.italian__cuisine{
+
+    border-radius: 6px 6px 0px 0px;
+    width: 100%;
+
+
+}
+.indian__cuisine{
+
+    border-radius: 6px 6px 0px 0px;
+    width: 100%;
+
+
+}
+.thai__cuisine{
+
+    border-radius: 6px 6px 0px 0px;
+    width: 100%;
+
+
+}
+.japanese__cuisine{
+
+    border-radius: 6px 6px 0px 0px;
+    width: 100%;
+
+
+}
+.food__menu__card__details{
+    padding: 1rem;
+    text-align: left;
+    color: black;
+    
+    
+}
+.food__menu__card__title{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: black;
+    font-weight: 900;
+}
+.text_1{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.restaurant__list__images__container{
+    margin-top: 3rem;
+}
+
+.restaurant__list__row1{
+    display: flex;
+    align-items: baseline;
+
+
+}
+.restaurant__list__row2{
+    margin-top: 10px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row-reverse;
+
+}
+
+.restaurant1{
+    border-radius: 5px;
+    margin: 0 5px;
+    width: 170px;
+    height: 130px;
+    
+}
+.restaurant3{
+    border-radius: 5px;
+    margin: 0 5px;
+    width: 170px;
+    height: 140px;
+}
+.restaurant2{
+    border-radius: 5px;
+    margin: 0 5px;
+    width: 150px;
+    height: 100px;
+
+    
+}
+.restaurant4{
+    border-radius: 5px;
+    margin: 0 5px;
+    width: 150px;
+    height: 130px;
+    margin-bottom: 1rem;
+    
+}
+.phone{
+    object-fit: fill;
+    
+	width:23.2rem;
+    height: 15rem;
+
+    position:absolute; 
+   
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+.email__subcribe__container {
+    display: flex;
+
+    justify-content: center;
+  }
+
+  .email__input {
+    width: 20rem;
+  }
+
+  .quote__container {
+    height: 300px;
+    width: 100%;
+  }
+
+  .quote_image_overlay {
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    border-radius: 13px;
+    background-color: #ebf74e;
+    opacity: 49%;
+  }
+
+  .quote_image_text {
+    color: rgb(255, 136, 0);
+    z-index: 3;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  footer {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+@media all and (min-width:1200px)
+{
+    .navbar {
+        padding:0 3rem;
+    }
+    .button__primary
+    {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    .hero__container{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    .hero__image{
+        align-items:right;
+        width:13%;
+        position:relative; 
+        margin-left: 0px;
+        
+    }
+    .hero__image2
+    {
+        float: right;
+        position:absolute; 
+        width: 18%;
+        right: 0%;     
+    }
+   
+   
+   .button__main
+   {
+    position: absolute;
+bottom: 50%;
+left: 9%;
+     padding: 0.8rem 1rem;
+     text-align: center;
+     transition: 1s;
+     color: black;
+     font-weight: 300;
+     border-radius: 29px;
+     box-shadow: rgb(230, 112, 44);
+     background-size: 200% auto;
+     display: block;
+  }
+  .hero__text{
+    position:absolute;
+    font-size: 3rem;
+    text-align: center;
+    top: 30%;
+    
+    line-height: 2.2rem;
+    font-weight: 900;
+    color: black;
+  }
+  .search{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    height: 40%;
+    width: 100%;
+
+}
+
+.hero__logo
+{
+    width:25%;
+    margin-top: 10px;
+    margin-left:50px;
+}
+.hero__logo1
+{
+    width:25%;
+}
+.hero__logo2
+{
+    width:25%;
+}.hero__logo
+{
+    align-items: center;
+    width:13%;
+    margin-top: 100px;
+    margin-left:30%;
+}
+.hero__logo1
+{
+
+    width:13%;
+}
+.hero__logo2
+{
+    width:13%;
+}
+.food__list__container{
+    position: relative;
+    margin: 5rem 0rem;
+
+}
+.food__menu__card__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+   
+   
+}
+.food__menu__card{
+    flex-basis: 30%;
+    background-color: cornsilk;
+    border-radius: 6px;
+}
+.restaurant2{
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    height: 260px;
+    left: 20%;
+}
+.restaurant4 {
+    justify-content: center;
+    position: relative;
+  width: 300px;
+  height: 260px;
+  right: 20%;
+}
+
+.restaurant1{
+    position: relative;
+    justify-content: center;
+    width: 250px;
+  height: 180px;
+  left:50%
+}
+.restaurant3 {
+    justify-content: center;
+    position: relative;
+  width: 250px;
+  height: 200px;
+  right: 50%;
+  top: 10%;
+}
+
+
+    .content{
+        position: absolute;
+        right: 29%;
+        top:54%;
+        text-align: center;
+        border:0;
+        
+    
+   font-weight: 900;
+   
+    border: 3px solid rgb(248, 99, 0);
+    border-radius: 23px;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: black;
+   
+}
+.video__clip__container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.video__text{
+    margin-top: 1rem;
+    color: black;
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+}
+.video__clip{
+    position:relative;
+  
+ }
+ .food__menu__card__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+   
+   
+}
+.food__menu__card{
+    flex-basis: 20%;
+    background-color: cornsilk;
+    border-radius: 6px;
+}
+.phone__img
+{
+    position: absolute;
+    left: 80%;
+    top: 278%;
+   
+}
+.phone{
+    object-fit: fill;
+    height: 30rem;
+
+    position:absolute; 
+   
+    
+}
+.logolast{
+    position:relative;
+    width: 10%;
+}
+}
